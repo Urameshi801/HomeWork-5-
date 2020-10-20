@@ -10,7 +10,6 @@ $(document).ready(function () {
         localStorage.setItem(time, text);
     })
 });
-
 $("#9am .description").val(localStorage.getItem("9am"));
 $("#10am .description").val(localStorage.getItem("10am"));
 $("#11am .description").val(localStorage.getItem("11am"));
